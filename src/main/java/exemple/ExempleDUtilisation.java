@@ -8,7 +8,7 @@ import java.awt.Font;
 public class ExempleDUtilisation {
 
     public static void main(String[] args) {
-        new ExempleDUtilisation().exemple();
+        //new ExempleDUtilisation().exemple();
     }
 
     public void exemple() {
