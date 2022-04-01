@@ -4,7 +4,7 @@ import bandeau.Bandeau;
 
 import java.awt.Color;
 
-public class ColorAP extends Effets {
+public class ColorBackground extends Effets {
     Color color;
 
     @Override
@@ -12,8 +12,8 @@ public class ColorAP extends Effets {
         bd.setBackground(color);
     }
 
-    public ColorAP(Bandeau bd, Color cA){
-        super("ColorAP", "Changer la couleur de l'arrière-plan.");
+    public ColorBackground(Bandeau bd, Color cA){
+        super("ColorBackground", "Changer la couleur de l'arrière-plan.");
         this.color = cA;
     }
 }

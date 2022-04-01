@@ -19,10 +19,10 @@ public class Test {
         ChangerMsg cm = new ChangerMsg(bandeau, "Hello!");
         Zoom zo = new Zoom(bandeau);
         ChangerMsg cm2 = new ChangerMsg(bandeau, "How are you?");
-        ColorAP cAP = new ColorAP(bandeau, Color.LIGHT_GRAY);
+        ColorBackground cAP = new ColorBackground(bandeau, Color.LIGHT_GRAY);
         ColorMsg cMsg = new ColorMsg(bandeau, Color.WHITE);
         Rotation ro = new Rotation(bandeau);
-        ColorAP cAP2 = new ColorAP(bandeau, Color.YELLOW);
+        ColorBackground cAP2 = new ColorBackground(bandeau, Color.YELLOW);
         ColorMsg cMsg2 = new ColorMsg(bandeau, Color.GREEN);
         DeZoom deZo = new DeZoom(bandeau);
         
